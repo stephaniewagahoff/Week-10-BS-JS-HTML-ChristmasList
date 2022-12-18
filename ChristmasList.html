@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas List</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container" style="background-image:url('snowflake-bg.jpg'); background-size: cover">
+
+    <br>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group">                    
+                        <label for="new-friend-family">Friends/Family Name</label>
+                        <input type="text" class="form-control" id="new-friend-family">
+                    </div>
+                    <div><br>
+                        <button id="new-friend" class="btn btn-primary form-control">Add</button>
+                    </div>    
+                </div>
+                
+                <div class="col-sm-8 text-center">
+                    <h2>Christmas List</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div id="lists">
+    </div>
+        
+    <script src="ChristmasList.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        
+</body>
+</html>
